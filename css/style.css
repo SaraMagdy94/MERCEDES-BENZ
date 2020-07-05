@@ -1,0 +1,226 @@
+body {
+    background-color: #000;
+color: #333335;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-site {
+    margin: auto;
+    width: 920px;
+}
+
+.upper {
+    height: 120px;
+}
+
+.all-site .logo {
+    float: left;
+}
+
+.all-site .logo img {
+    margin: 0px 0 0 20px;
+}
+
+.all-site .icon {
+    float: right
+}
+
+.all-site .icon ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.all-site .icon ul li {
+    display: inline-block;
+}
+
+.all-site .icon a {
+    text-decoration: none;
+    margin: -3px;
+}
+
+.all-site .icon ul li img {
+    width: 30px;
+    opacity: .7;
+}
+
+.all-site .icon ul li img:hover {
+    opacity: 1;
+}
+
+
+/* Header */
+
+.header {
+    height: 50px;
+    border-top: #fff solid 1px;
+}
+
+.header .menu {
+    float: left
+}
+
+.header .menu ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    height: 50px;
+}
+
+.header .menu a {
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #ccc;
+    font-size: 15px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.header .menu a:hover {
+    background-color: #3399fd;
+}
+
+
+/* start content */
+
+.content {
+    background-color: #ccc;
+}
+
+.content img {
+    margin: 10px;
+}
+
+.content .left-side {
+    width: 67%;
+    float: left;
+}
+
+.content .right-side {
+    width: 25%;
+    float: right;
+}
+
+.content .left-side,
+.content .right-side {
+    margin: 0 15px;
+}
+
+.content .left-side h3,
+.content .right-side h3 {
+    border-bottom: 1px solid #999999;
+    color: #3399fd;
+    font-size: 17px;
+}
+
+
+.content .left-side p,
+.content .cont-page-two p {
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.content .left-side li {
+    font-size: 14px;
+}
+
+.content .left-side .car-one {
+    float: left;
+}
+
+.content .left-side .car-one img,
+.content .left-side .car-two img {
+    outline: 2px solid #fff;
+    outline-offset: 5px;
+    margin: 0 10px;
+}
+
+.content .left-side .car-two {
+    float: right;
+}
+
+.content .left-side .p-two {
+    margin: 20px 0 40px 0;
+}
+
+
+/* right side  */
+
+.content .right-side p {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.content .right-side .p-orange {
+    color: #ff7c2a;
+    font-size: 12px;
+}
+
+.content .right-side span {
+    color: #3399fd;
+    padding-top: 2px;
+}
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+    border-top: #999999 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin-top: 25px;
+}
+
+
+/* page two  */
+
+.content .cont-page-two h3 {
+    border-bottom: 1px solid #999999;
+    color: #3399fd;
+    font-size: 17px;
+}
+
+.content .cont-page-two {
+    margin: 15px;
+}
+
+.car-all-one,
+.car-all-two {
+    margin-left: 70px;
+}
+
+.content .car-all-one .car-one,
+.content .car-all-one .car-two,
+.content .car-all-two .car-three,
+.content .car-all-two .car-four {
+    display: inline-block;
+}
+
+.content .car-all-one .car-one img,
+.content .car-all-one .car-two img,
+.content .car-all-two .car-three img,
+.content .car-all-two .car-four img {
+    border: 3px solid #9c9c9c;
+    border-radius: 2px;
+}
+
+.cont-page-two .last-p {
+    padding: 40px 0 20px 0;
+    text-align: justify;
+    font-size: 15px;
+}
+
